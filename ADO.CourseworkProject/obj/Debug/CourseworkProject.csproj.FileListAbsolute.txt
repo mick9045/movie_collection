@@ -1,0 +1,7 @@
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.CourseworkProject\obj\Debug\CourseworkProject.csprojResolveAssemblyReference.cache
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.CourseworkProject\obj\Debug\Views\MainWindow.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.CourseworkProject\obj\Debug\App.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.CourseworkProject\obj\Debug\FilmRent_MarkupCompile.cache
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.CourseworkProject\obj\Debug\FilmRent_MarkupCompile.lref
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.CourseworkProject\bin\Debug\FilmRent.exe.config
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\FilmRent.exe.config

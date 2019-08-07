@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FilmRentModelStoreContainer" CdmEntityContainer="FilmRentContext">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="FilmRentModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Nickname" ColumnName="Nickname" />
+          <ScalarProperty Name="IdAccountRole" ColumnName="IdAccountRole" />
+          <ScalarProperty Name="IdStaff" ColumnName="IdStaff" />
+          <ScalarProperty Name="IdAccount" ColumnName="IdAccount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountRoles">
+      <EntityTypeMapping TypeName="FilmRentModel.AccountRole">
+        <MappingFragment StoreEntitySet="AccountRole">
+          <ScalarProperty Name="RoleDefenition" ColumnName="RoleDefenition" />
+          <ScalarProperty Name="IdAccountRole" ColumnName="IdAccountRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="FilmRentModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdCountry" ColumnName="IdCountry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Staffs">
+      <EntityTypeMapping TypeName="FilmRentModel.Staff">
+        <MappingFragment StoreEntitySet="Staff">
+          <ScalarProperty Name="Residence" ColumnName="Residence" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Born" ColumnName="Born" />
+          <ScalarProperty Name="IdPosition" ColumnName="IdPosition" />
+          <ScalarProperty Name="HomeAdress" ColumnName="HomeAdress" />
+          <ScalarProperty Name="BirthYear" ColumnName="BirthYear" />
+          <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdStaff" ColumnName="IdStaff" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StaffPositions">
+      <EntityTypeMapping TypeName="FilmRentModel.StaffPosition">
+        <MappingFragment StoreEntitySet="StaffPosition">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdStaffPosition" ColumnName="IdStaffPosition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Films">
+      <EntityTypeMapping TypeName="FilmRentModel.Film">
+        <MappingFragment StoreEntitySet="Film">
+          <ScalarProperty Name="FilmLength" ColumnName="FilmLength" />
+          <ScalarProperty Name="Tagline" ColumnName="Tagline" />
+          <ScalarProperty Name="YearReleased" ColumnName="YearReleased" />
+          <ScalarProperty Name="Budget" ColumnName="Budget" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdFilm" ColumnName="IdFilm" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genres">
+      <EntityTypeMapping TypeName="FilmRentModel.Genre">
+        <MappingFragment StoreEntitySet="Genre">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IdGenre" ColumnName="IdGenre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FilmCountry" TypeName="FilmRentModel.FilmCountry" StoreEntitySet="FilmCountry">
+      <EndProperty Name="Film">
+        <ScalarProperty Name="IdFilm" ColumnName="IdFilm" />
+      </EndProperty>
+      <EndProperty Name="Country">
+        <ScalarProperty Name="IdCountry" ColumnName="IdCountry" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FilmGenre" TypeName="FilmRentModel.FilmGenre" StoreEntitySet="FilmGenre">
+      <EndProperty Name="Genre">
+        <ScalarProperty Name="IdGenre" ColumnName="IdGenre" />
+      </EndProperty>
+      <EndProperty Name="Film">
+        <ScalarProperty Name="IdFilm" ColumnName="IdFilm" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="Actors">
+      <EntityTypeMapping TypeName="FilmRentModel.Actor">
+        <MappingFragment StoreEntitySet="Actor">
+          <ScalarProperty Name="IdCountry" ColumnName="IdCountry" />
+          <ScalarProperty Name="Born" ColumnName="Born" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="IdActor" ColumnName="IdActor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FilmCast" TypeName="FilmRentModel.FilmCast" StoreEntitySet="FilmCast">
+      <EndProperty Name="Film">
+        <ScalarProperty Name="IdFilm" ColumnName="IdFilm" />
+      </EndProperty>
+      <EndProperty Name="Actor">
+        <ScalarProperty Name="IdActor" ColumnName="IdActor" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

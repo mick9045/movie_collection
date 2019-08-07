@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c78b04c8206649bca11c05dcfb92bc4e" Name="Diagram1">
+        <EntityTypeShape EntityType="FilmRentModel.Account" Width="1.5" PointX="5.25" PointY="1.625" />
+        <EntityTypeShape EntityType="FilmRentModel.AccountRole" Width="1.5" PointX="7.375" PointY="0.5" />
+        <EntityTypeShape EntityType="FilmRentModel.Country" Width="1.5" PointX="0.5" PointY="4.75" />
+        <EntityTypeShape EntityType="FilmRentModel.Staff" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="FilmRentModel.StaffPosition" Width="1.5" PointX="0.75" PointY="2" />
+        <AssociationConnector Association="FilmRentModel.FK__Account__IdAccou__3C69FB99" />
+        <AssociationConnector Association="FilmRentModel.FK__Account__IdStaff__3B75D760" />
+        <AssociationConnector Association="FilmRentModel.FK__Staff__Residence__286302EC" />
+        <AssociationConnector Association="FilmRentModel.FK__Staff__IdPositio__276EDEB3" />
+        <EntityTypeShape EntityType="FilmRentModel.Film" Width="1.5" PointX="6.375" PointY="4.625" />
+        <EntityTypeShape EntityType="FilmRentModel.Genre" Width="1.5" PointX="7.125" PointY="2.375" />
+        <AssociationConnector Association="FilmRentModel.FilmCountry" />
+        <AssociationConnector Association="FilmRentModel.FilmGenre" />
+        <EntityTypeShape EntityType="FilmRentModel.Actor" Width="1.5" PointX="3.375" PointY="5.375" />
+        <AssociationConnector Association="FilmRentModel.FK__Actor__IdCountry__40F9A68C" />
+        <AssociationConnector Association="FilmRentModel.FilmCast" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

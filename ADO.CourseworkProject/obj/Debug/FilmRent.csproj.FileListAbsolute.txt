@@ -1,0 +1,143 @@
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\FilmRent.exe.config
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\FilmRent.exe
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\FilmRent.pdb
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\App.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\FilmRent_MarkupCompile.cache
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\FilmRent_MarkupCompile.lref
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\FilmRent.g.resources
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\FilmRent.csproj.GenerateResource.Cache
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\FilmRent.exe
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\FilmRent.pdb
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\FilmRent.Properties.Resources.resources
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\MainWindow.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\MainWindow.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\UserLogInView.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\UserLogInView.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\MainWindowResources.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\FilmRent_Content.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\EntityFramework.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\EntityFramework.xml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\MovieView.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\MovieAddingView.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\MovieView.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\MovieAddingView.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\MovieSearchView.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\MovieSearchView.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\FilmRent.csprojResolveAssemblyReference.cache
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\ActorAddingView.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET\Coursework\ADO.CourseworkProject\obj\Debug\Views\ActorAddingView.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\FilmRent.exe.config
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\FilmRent.exe
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\FilmRent.pdb
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\FilmRent.exe
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\FilmRent.pdb
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\EntityFramework.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\EntityFramework.xml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\FilmRent.csprojResolveAssemblyReference.cache
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\ActorAddingView.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\MovieSearchView.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\MovieView.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\MainWindow.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\MovieAddingView.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\UserLogInView.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\App.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\FilmRent_Content.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\FilmRent_MarkupCompile.cache
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\FilmRent_MarkupCompile.lref
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\MainWindowResources.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\ActorAddingView.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\MovieSearchView.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\MovieView.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\MainWindow.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\MovieAddingView.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\Views\UserLogInView.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\FilmRent.g.resources
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\FilmRent.Properties.Resources.resources
+C:\Users\mick\Documents\Programming\Coursework\ADO.NET DISC\PROJECT\project\ADO.CourseworkProject\obj\Debug\FilmRent.csproj.GenerateResource.Cache
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\FilmRent.exe.config
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\FilmRent.exe
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\FilmRent.pdb
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\EntityFramework.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\EntityFramework.xml
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent.csprojAssemblyReference.cache
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\ActorAddingView.g.cs
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\MovieSearchView.g.cs
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\MovieView.g.cs
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\MainWindow.g.cs
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\MovieAddingView.g.cs
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\UserLogInView.g.cs
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\App.g.cs
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent_Content.g.cs
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent_MarkupCompile.cache
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent_MarkupCompile.lref
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\MainWindowResources.baml
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\ActorAddingView.baml
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\MovieSearchView.baml
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\MovieView.baml
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\MainWindow.baml
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\MovieAddingView.baml
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\Views\UserLogInView.baml
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent.g.resources
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent.Properties.Resources.resources
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent.csproj.GenerateResource.cache
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent.csproj.CoreCompileInputs.cache
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent.csproj.CopyComplete
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent.exe
+C:\Users\mick\Documents\Programming\project\ADO.CourseworkProject\obj\Debug\FilmRent.pdb

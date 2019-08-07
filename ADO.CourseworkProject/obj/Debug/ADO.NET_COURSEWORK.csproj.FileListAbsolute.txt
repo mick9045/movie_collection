@@ -1,0 +1,27 @@
+c:\users\mick\documents\visual studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\bin\Debug\ADO.NET_COURSEWORK.exe.config
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\bin\Debug\ADO.NET_COURSEWORK.exe
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\bin\Debug\ADO.NET_COURSEWORK.pdb
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.csprojResolveAssemblyReference.cache
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\MainWindow.g.cs
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\App.g.cs
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK_MarkupCompile.cache
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK_MarkupCompile.lref
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\MainWindow.baml
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.g.resources
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.Properties.Resources.resources
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.csproj.GenerateResource.Cache
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.exe
+C:\Users\mick\Documents\Visual Studio 2015\Projects\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.pdb
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\bin\Debug\ADO.NET_COURSEWORK.exe.config
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.exe
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.pdb
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\bin\Debug\ADO.NET_COURSEWORK.exe
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\bin\Debug\ADO.NET_COURSEWORK.pdb
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\Views\MainWindow.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\App.g.cs
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK_MarkupCompile.cache
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK_MarkupCompile.lref
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\Views\MainWindow.baml
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.g.resources
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.Properties.Resources.resources
+C:\Users\mick\Documents\Programming\Coursework\ADO.net\ADO.NET_COURSEWORK\ADO.NET_COURSEWORK\obj\Debug\ADO.NET_COURSEWORK.csproj.GenerateResource.Cache

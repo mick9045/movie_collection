@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="FilmRent.Views.MovieSearchView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FilmRent.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox Text="{Binding SearchQuery}" Width="300"/>
+            <Button Command="{Binding SearchCommand}" Width="50">Поиск</Button>
+        </WrapPanel>
+        <Border Background="#eceff1" Grid.Column="0" Grid.Row="1">
+            <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Command="{Binding DetailedViewCommand}" Margin="10,0,10,0">Детальнeе</Button>
+                <Button Command="{Binding EditCommand}" Margin="10,0,10,0">Редактировать</Button>
+                <Button Command="{Binding RemoveCommand}" Margin="10,0,10,0">Удалить</Button>
+            </WrapPanel>
+        </Border>
+        <DockPanel Grid.Column="0" Grid.Row="2">
+            <ListView Margin="40, 20, 40, 20" ItemsSource="{Binding ResultCollection}" SelectedItem="{Binding SelectedMovie}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="100" Header="Заголовок" DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn Width="100" Header="Бюджет" DisplayMemberBinding="{Binding Budget}"/>
+                        <GridViewColumn Width="150" Header="Год выпуска" DisplayMemberBinding="{Binding YearReleased}"/>
+                        <GridViewColumn Width="150" Header="Продолжительность" DisplayMemberBinding="{Binding FilmLength}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </DockPanel>
+    </Grid>
+</UserControl>

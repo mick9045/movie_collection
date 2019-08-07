@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="FilmRent.Views.FilmView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FilmRent.Views"
+             xmlns:cv="clr-namespace:FilmRent.ViewModels.Converter"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1024">
+    <UserControl.Resources>
+        <cv:ImagePathConverter x:Key="ImagePathConverter"/>
+        <DataTemplate x:Key="BoxItemTemplate" DataType="{x:Type ComboBoxItem}">
+            <Label Content="{Binding Name}"></Label>
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="2">
+            <Image Source="{Binding Path=ImagePath, Converter={StaticResource ImagePathConverter}}"
+                   DockPanel.Dock="Top" />
+        </DockPanel>
+        <Border BorderBrush="#607d8b" BorderThickness="2" Padding="10" CornerRadius="12" VerticalAlignment="Top"  Margin="10" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <DockPanel>
+                <WrapPanel DockPanel.Dock="Top"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,10">
+                    <Label FontSize="16">Название:</Label>
+                    <Label FontSize="16" Content="{Binding MovieTitle}"/>
+                </WrapPanel>
+                <WrapPanel DockPanel.Dock="Top" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,10">
+                    <Label FontSize="16">Бюджет:</Label>
+                    <Label FontSize="16" Content="{Binding MovieBudget}"/>
+                    <Label FontSize="16">($)</Label>
+                </WrapPanel>
+                <WrapPanel DockPanel.Dock="Top" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,10">
+                    <Label FontSize="16">Год выпуска:</Label>
+                    <Label FontSize="16" Content="{Binding MovieYearReleased}"/>
+                </WrapPanel>
+                <WrapPanel DockPanel.Dock="Top" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,10">
+                    <Label FontSize="16">Слоган:</Label>
+                    <Label FontSize="16" Content="{Binding MovieTagline}"/>
+                </WrapPanel>
+                <WrapPanel DockPanel.Dock="Top">
+                    <Label FontSize="16">Жанры</Label>
+                    <ListView Width="130" Height="100" ItemsSource="{Binding MovieGenres}" ItemTemplate="{StaticResource BoxItemTemplate}">
+                    </ListView>
+                    <Label FontSize="16">Страны</Label>
+                    <ListView Width="130" Height="100" ItemsSource="{Binding MovieCountries}" ItemTemplate="{StaticResource BoxItemTemplate}">
+                    </ListView>
+                </WrapPanel>
+                <WrapPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Width="450" VerticalAlignment="Center" Margin="0,10">
+                    <DockPanel>
+                        <Label DockPanel.Dock="Top" FontSize="16">Актёры</Label>
+
+                        <ListView DockPanel.Dock="Top" Width="390" Height="180" ItemsSource="{Binding MovieActors}">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Width="100" Header="Имя" DisplayMemberBinding="{Binding FirstName}"/>
+                                    <GridViewColumn Width="100" Header="Фамилия" DisplayMemberBinding="{Binding LastName}"/>
+                                    <GridViewColumn Width="150" Header="День Рождения" DisplayMemberBinding="{Binding Born, StringFormat=d}"/>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </DockPanel>
+                </WrapPanel>
+            </DockPanel>
+        </Border>
+
+    </Grid>
+</UserControl>

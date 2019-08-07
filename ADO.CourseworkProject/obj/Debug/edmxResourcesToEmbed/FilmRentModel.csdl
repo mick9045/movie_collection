@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FilmRentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="FilmRentContext" annotation:LazyLoadingEnabled="false">
+    <EntitySet Name="Accounts" EntityType="FilmRentModel.Account" />
+    <EntitySet Name="AccountRoles" EntityType="FilmRentModel.AccountRole" />
+    <EntitySet Name="Countries" EntityType="FilmRentModel.Country" />
+    <EntitySet Name="Films" EntityType="FilmRentModel.Film" />
+    <EntitySet Name="Genres" EntityType="FilmRentModel.Genre" />
+    <EntitySet Name="Staffs" EntityType="FilmRentModel.Staff" />
+    <EntitySet Name="StaffPositions" EntityType="FilmRentModel.StaffPosition" />
+    <AssociationSet Name="FK__Account__IdAccou__3C69FB99" Association="FilmRentModel.FK__Account__IdAccou__3C69FB99">
+      <End Role="AccountRole" EntitySet="AccountRoles" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Account__IdStaff__3B75D760" Association="FilmRentModel.FK__Account__IdStaff__3B75D760">
+      <End Role="Staff" EntitySet="Staffs" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Staff__Residence__286302EC" Association="FilmRentModel.FK__Staff__Residence__286302EC">
+      <End Role="Country" EntitySet="Countries" />
+      <End Role="Staff" EntitySet="Staffs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Staff__IdPositio__276EDEB3" Association="FilmRentModel.FK__Staff__IdPositio__276EDEB3">
+      <End Role="StaffPosition" EntitySet="StaffPositions" />
+      <End Role="Staff" EntitySet="Staffs" />
+    </AssociationSet>
+    <AssociationSet Name="FilmGenre" Association="FilmRentModel.FilmGenre">
+      <End Role="Film" EntitySet="Films" />
+      <End Role="Genre" EntitySet="Genres" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="IdAccount" />
+    </Key>
+    <Property Name="IdAccount" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdStaff" Type="Int32" />
+    <Property Name="IdAccountRole" Type="Int32" />
+    <Property Name="Nickname" Type="String" MaxLength="24" FixedLength="true" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="24" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="AccountRole" Relationship="FilmRentModel.FK__Account__IdAccou__3C69FB99" FromRole="Account" ToRole="AccountRole" />
+    <NavigationProperty Name="Staff" Relationship="FilmRentModel.FK__Account__IdStaff__3B75D760" FromRole="Account" ToRole="Staff" />
+  </EntityType>
+  <EntityType Name="AccountRole">
+    <Key>
+      <PropertyRef Name="IdAccountRole" />
+    </Key>
+    <Property Name="IdAccountRole" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleDefenition" Type="String" MaxLength="25" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Accounts" Relationship="FilmRentModel.FK__Account__IdAccou__3C69FB99" FromRole="AccountRole" ToRole="Account" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="IdCountry" />
+    </Key>
+    <Property Name="IdCountry" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Staffs" Relationship="FilmRentModel.FK__Staff__Residence__286302EC" FromRole="Country" ToRole="Staff" />
+  </EntityType>
+  <EntityType Name="Film">
+    <Key>
+      <PropertyRef Name="IdFilm" />
+    </Key>
+    <Property Name="IdFilm" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="32" FixedLength="true" Unicode="true" />
+    <Property Name="ImagePath" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Budget" Type="Int32" Nullable="false" />
+    <Property Name="DateReleased" Type="Int32" Nullable="false" />
+    <Property Name="Tagline" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Genres" Relationship="FilmRentModel.FilmGenre" FromRole="Film" ToRole="Genre" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="IdGenre" />
+    </Key>
+    <Property Name="IdGenre" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Films" Relationship="FilmRentModel.FilmGenre" FromRole="Genre" ToRole="Film" />
+  </EntityType>
+  <EntityType Name="Staff">
+    <Key>
+      <PropertyRef Name="IdStaff" />
+    </Key>
+    <Property Name="IdStaff" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Surname" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Patronymic" Type="String" Nullable="false" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="BirthYear" Type="Int32" Nullable="false" />
+    <Property Name="HomeAdress" Type="String" MaxLength="128" FixedLength="true" Unicode="true" />
+    <Property Name="IdPosition" Type="Int32" Nullable="false" />
+    <Property Name="Born" Type="DateTime" Precision="0" />
+    <Property Name="PhoneNumber" Type="String" Nullable="false" MaxLength="13" FixedLength="true" Unicode="false" />
+    <Property Name="Residence" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Accounts" Relationship="FilmRentModel.FK__Account__IdStaff__3B75D760" FromRole="Staff" ToRole="Account" />
+    <NavigationProperty Name="Country" Relationship="FilmRentModel.FK__Staff__Residence__286302EC" FromRole="Staff" ToRole="Country" />
+    <NavigationProperty Name="StaffPosition" Relationship="FilmRentModel.FK__Staff__IdPositio__276EDEB3" FromRole="Staff" ToRole="StaffPosition" />
+  </EntityType>
+  <EntityType Name="StaffPosition">
+    <Key>
+      <PropertyRef Name="IdStaffPosition" />
+    </Key>
+    <Property Name="IdStaffPosition" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Staffs" Relationship="FilmRentModel.FK__Staff__IdPositio__276EDEB3" FromRole="StaffPosition" ToRole="Staff" />
+  </EntityType>
+  <Association Name="FK__Account__IdAccou__3C69FB99">
+    <End Type="FilmRentModel.AccountRole" Role="AccountRole" Multiplicity="0..1" />
+    <End Type="FilmRentModel.Account" Role="Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountRole">
+        <PropertyRef Name="IdAccountRole" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="IdAccountRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Account__IdStaff__3B75D760">
+    <End Type="FilmRentModel.Staff" Role="Staff" Multiplicity="0..1" />
+    <End Type="FilmRentModel.Account" Role="Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Staff">
+        <PropertyRef Name="IdStaff" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="IdStaff" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Staff__Residence__286302EC">
+    <End Type="FilmRentModel.Country" Role="Country" Multiplicity="1" />
+    <End Type="FilmRentModel.Staff" Role="Staff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="IdCountry" />
+      </Principal>
+      <Dependent Role="Staff">
+        <PropertyRef Name="Residence" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Staff__IdPositio__276EDEB3">
+    <End Type="FilmRentModel.StaffPosition" Role="StaffPosition" Multiplicity="1" />
+    <End Type="FilmRentModel.Staff" Role="Staff" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StaffPosition">
+        <PropertyRef Name="IdStaffPosition" />
+      </Principal>
+      <Dependent Role="Staff">
+        <PropertyRef Name="IdPosition" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FilmGenre">
+    <End Type="FilmRentModel.Film" Role="Film" Multiplicity="*" />
+    <End Type="FilmRentModel.Genre" Role="Genre" Multiplicity="*" />
+  </Association>
+</Schema>
